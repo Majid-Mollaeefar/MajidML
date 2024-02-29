@@ -169,17 +169,18 @@
 
     <!-- Publication Table -->
     <div class="container">
-      <div class="w3-content w3-justify w3-text-white w3-padding-64" id="publication">
+    <div class="w3-content w3-justify w3-text-white w3-padding-64" id="publication">
         <h2 class="w3-text-white">Publications</h2>
         <hr style="width:200px" class="w3-opacity">
-        <table class="table  table-xl table-borderless table-black w3-text-white ">
-          <thead>
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="col"> #</th>
-              <th scope="col"> Title</th>
-              <th scope="col">Year</th>
-            </tr>
-          </thead>
+        <table class="table table-xl table-borderless table-black w3-text-white ">
+            <thead>
+                <tr class="col animate-box" data-animate-effect="fadeInLeft">
+                    <th scope="col"> #</th>
+                    <th scope="col"> Title</th>
+                    <th scope="col">Year</th>
+                </tr>
+            </thead>
+
           <tbody>
           
            <tr class="col animate-box" data-animate-effect="fadeInLeft">
@@ -317,6 +318,18 @@
   <script src="js/hex.js"></script>
   <script src="js/dark.mode.toggle.js"></script>
   <script src="js/script.js"></script>
+<script>
+// This script automatically updates the publication counter.
+document.addEventListener('DOMContentLoaded', function () {
+    const publicationRows = document.querySelectorAll('#publication tbody tr');
+    publicationRows.forEach(function (row, index) {
+        const numberCell = row.querySelector('th[scope="row"]');
+        if (numberCell) {
+            numberCell.textContent = index + 1; // Update the index number
+        }
+    });
+});
+</script>
 
 </body>
 </html>
