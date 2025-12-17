@@ -223,19 +223,16 @@
     }
     
     .hero-image {
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
       border-radius: 50%;
       object-fit: cover;
       border: 5px solid var(--primary-color);
       margin: 2rem auto;
       display: block;
       box-shadow: 0 10px 30px rgba(44, 152, 240, 0.3);
-      transition: transform var(--transition-speed);
-    }
-    
-    .hero-image:hover {
-      transform: scale(1.05);
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
     }
     
     .hero h1 {
