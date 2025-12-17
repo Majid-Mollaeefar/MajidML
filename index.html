@@ -1,594 +1,1415 @@
 <!DOCTYPE html>
-<html>
-<title>Majid Mollaeefar</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="icon" href="https://majidml.com/assets/img/favicon.ico" type="image/x-icon">
-<link rel="icon" href="https://majidml.com/assets/img/icon.png" type="image/png">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
-<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-<link rel="canonical" href="https://jpswalsh.github.io/academicons/">
-<link rel="stylesheet" href="https://jpswalsh.github.io/academicons/css/custom.css">
-
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/services.css">
-<link rel="stylesheet" href="css/dark-mode-button.css">
-<link rel="stylesheet" href="css/dark-mode.css">
-<style>
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Montserrat", sans-serif
-  }
-
-  .w3-row-padding img {
-    margin-bottom: 12px
-  }
-
-  /* Set the width of the sidebar to 120px */
-  .w3-sidebar {
-    width: 120px;
-    background: #222;
-  }
-
-  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-  #main {
-    margin-left: 120px
-  }
-
-  /* Remove margins from "page content" on small screens */
-  @media only screen and (max-width: 600px) {
-    #main {
-      margin-left: 0
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Majid Mollaeefar - Cybersecurity Specialist & Privacy Enthusiast with expertise in risk assessment, threat modeling, and AI-powered security tools.">
+  <meta name="keywords" content="cybersecurity, privacy, risk assessment, threat modeling, GDPR, AI security, TARA, LINDDUN">
+  <meta name="author" content="Majid Mollaeefar">
+  
+  <!-- Open Graph tags for social sharing -->
+  <meta property="og:title" content="Majid Mollaeefar - Cybersecurity Specialist">
+  <meta property="og:description" content="Expert in cybersecurity risk assessment, privacy protection, and AI-powered security tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://majidml.com">
+  <meta property="og:image" content="https://majid-mollaeefar.github.io/MajidML/assets/img/img1.jpg">
+  
+  <title>Majid Mollaeefar - Cybersecurity Specialist</title>
+  
+  <!-- Favicons -->
+  <link rel="icon" href="https://majidml.com/assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://majidml.com/assets/img/icon.png" type="image/png">
+  
+  <!-- External CDN Resources -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Custom Properties for Theming */
+    :root {
+      --primary-color: #2c98f0;
+      --secondary-color: #1a73c2;
+      --accent-color: #f9bf3f;
+      --text-primary: #ffffff;
+      --text-secondary: #b0b0b0;
+      --bg-primary: #0a0a0a;
+      --bg-secondary: #1a1a1a;
+      --bg-card: #1e1e1e;
+      --border-color: #333;
+      --hover-color: #ffc107;
+      --transition-speed: 0.3s;
+      --spacing-unit: 1rem;
     }
-  }
-  .ai-google-scholar {
-        background: #ffffff;
-        text-decoration: none;
-        width: 30px;
-        color: rgb(0, 0, 0);
-        border-radius: 20%;
-        font-size: 35px;
-        text-align: center;
-        padding: 1px;
+    
+    /* Reset and Base Styles */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: var(--spacing-unit);
+    }
+    
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+    h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
+    
+    p {
+      margin-bottom: 1.5em;
+      color: var(--text-secondary);
+    }
+    
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: color var(--transition-speed);
+    }
+    
+    a:hover {
+      color: var(--hover-color);
+    }
+    
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    /* Navigation Sidebar */
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 120px;
+      height: 100vh;
+      background: var(--bg-secondary);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 0;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .sidebar nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+    
+    .sidebar a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0.5rem;
+      color: var(--text-secondary);
+      transition: all var(--transition-speed);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .sidebar a:hover,
+    .sidebar a:focus {
+      background: var(--bg-card);
+      color: var(--primary-color);
+    }
+    
+    .sidebar a i {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    /* Mobile Navigation */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg-secondary);
+      z-index: 999;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .mobile-nav-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 0.5rem;
+    }
+    
+    .mobile-nav a {
+      flex: 1 1 auto;
+      text-align: center;
+      padding: 0.75rem 0.5rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      transition: all var(--transition-speed);
+      min-width: 80px;
+    }
+    
+    .mobile-nav a:hover {
+      color: var(--primary-color);
+      background: var(--bg-card);
+    }
+    
+    /* Main Content Area */
+    .main-content {
+      margin-left: 120px;
+      min-height: 100vh;
+    }
+    
+    /* Section Styles */
+    section {
+      padding: 5rem 0;
+      min-height: 50vh;
+    }
+    
+    section:first-of-type {
+      padding-top: 2rem;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .section-header h2 {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 1rem;
+    }
+    
+    .section-header h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    }
+    
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 3rem 0;
+    }
+    
+    .hero-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid var(--primary-color);
+      margin: 2rem auto;
+      display: block;
+      box-shadow: 0 10px 30px rgba(44, 152, 240, 0.3);
+      transition: transform var(--transition-speed);
+    }
+    
+    .hero-image:hover {
+      transform: scale(1.05);
+    }
+    
+    .hero h1 {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      font-weight: 300;
+    }
+    
+    /* Professional Summary */
+    .professional-summary {
+      background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+      padding: 2rem;
+      border-radius: 12px;
+      border-left: 4px solid var(--primary-color);
+      margin-bottom: 2rem;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .professional-summary h3 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+    
+    /* Stats/Highlights */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .stat-card {
+      background: var(--bg-card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid var(--border-color);
+      transition: all var(--transition-speed);
+    }
+    
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(44, 152, 240, 0.2);
+      border-color: var(--primary-color);
+    }
+    
+    .stat-card .number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      display: block;
+    }
+    
+    .stat-card .label {
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      letter-spacing: 1px;
+    }
+    
+    /* Skills Badges */
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    
+    .skill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 25px;
+      font-size: 0.9rem;
+      transition: all var(--transition-speed);
+    }
+    
+    .skill-badge:hover {
+      background: var(--primary-color);
+      color: var(--bg-primary);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(44, 152, 240, 0.3);
+    }
+    
+    .skill-badge i {
+      font-size: 1.2rem;
+    }
+    
+    /* Card Styles */
+    .card {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border-color);
+      transition: all var(--transition-speed);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      border-color: var(--primary-color);
+    }
+    
+    .card h3 {
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+    
+    .card .meta {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .card .meta i {
+      color: var(--primary-color);
+    }
+    
+    /* Publications */
+    .publication-item {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid var(--primary-color);
+      transition: all var(--transition-speed);
+    }
+    
+    .publication-item:hover {
+      transform: translateX(10px);
+      box-shadow: 0 5px 20px rgba(44, 152, 240, 0.2);
+    }
+    
+    .publication-title {
+      color: var(--text-primary);
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      transition: color var(--transition-speed);
+    }
+    
+    .publication-title:hover {
+      color: var(--hover-color);
+    }
+    
+    .publication-authors {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .publication-venue {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      font-style: italic;
+    }
+    
+    .publication-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: var(--accent-color);
+      color: var(--bg-primary);
+      border-radius: 15px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
+    
+    .publication-badge.journal {
+      background: #2ecc71;
+      color: white;
+    }
+    
+    .publication-badge.conference {
+      background: #3498db;
+      color: white;
+    }
+    
+    .publication-badge.workshop {
+      background: #9b59b6;
+      color: white;
+    }
+    
+    .publication-badge.best-paper {
+      background: linear-gradient(135deg, #f39c12, #e74c3c);
+      color: white;
+      font-weight: 700;
+    }
+    
+    .publication-year {
+      position: absolute;
+      right: 1.5rem;
+      top: 1.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--border-color);
+    }
+    
+    .publication-item {
+      position: relative;
+    }
+    
+    .publication-links {
+      margin-top: 0.75rem;
+      display: flex;
+      gap: 1rem;
+    }
+    
+    .publication-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      padding: 0.25rem 0.75rem;
+      background: var(--bg-secondary);
+      border-radius: 5px;
+      transition: all var(--transition-speed);
+    }
+    
+    .publication-links a:hover {
+      background: var(--primary-color);
+      color: var(--bg-primary);
+    }
+    
+    /* Tools Section */
+    .tool-card {
+      background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border-color);
+      transition: all var(--transition-speed);
+    }
+    
+    .tool-card:hover {
+      border-color: var(--primary-color);
+      box-shadow: 0 10px 30px rgba(44, 152, 240, 0.2);
+    }
+    
+    .tool-card h3 {
+      color: var(--hover-color);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    .tool-card h3 i {
+      color: var(--primary-color);
+    }
+    
+    .tool-card ul {
+      list-style: none;
+      margin: 1rem 0;
+    }
+    
+    .tool-card ul li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: var(--text-secondary);
+    }
+    
+    .tool-card ul li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+    }
+    
+    .tool-meta {
+      display: flex;
+      gap: 2rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+    
+    .tool-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    
+    .tool-meta-item strong {
+      color: var(--primary-color);
+    }
+    
+    .tool-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .tool-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--primary-color);
+      color: var(--bg-primary);
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all var(--transition-speed);
+    }
+    
+    .tool-btn:hover {
+      background: var(--secondary-color);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(44, 152, 240, 0.4);
+    }
+    
+    /* Footer */
+    footer {
+      background: var(--bg-secondary);
+      padding: 3rem 0;
+      text-align: center;
+      border-top: 1px solid var(--border-color);
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background: var(--bg-card);
+      border-radius: 50%;
+      font-size: 1.5rem;
+      transition: all var(--transition-speed);
+      border: 2px solid var(--border-color);
+    }
+    
+    .social-links a:hover {
+      background: var(--primary-color);
+      color: var(--bg-primary);
+      transform: translateY(-5px);
+      border-color: var(--primary-color);
+    }
+    
+    /* Back to Top Button */
+    .back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 50px;
+      height: 50px;
+      background: var(--primary-color);
+      color: var(--bg-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all var(--transition-speed);
+      z-index: 999;
+      border: none;
+    }
+    
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .back-to-top:hover {
+      background: var(--secondary-color);
+      transform: translateY(-5px);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .sidebar {
+        display: none;
       }
-  .ai-researchgate {
-        background: #ffffff;
-        text-decoration: none;
-        width: 30px;
-        color: rgb(0, 0, 0);
-        border-radius: 20%;
-        font-size: 35px;
-        text-align: center;
-        padding: 1px;
+      
+      .mobile-nav {
+        display: block;
       }
-</style>
+      
+      .main-content {
+        margin-left: 0;
+        padding-top: 100px;
+      }
+      
+      section {
+        padding: 3rem 0;
+      }
+      
+      .container {
+        padding: 0 1rem;
+      }
+      
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .hero-image {
+        width: 200px;
+        height: 200px;
+      }
+      
+      .publication-year {
+        position: static;
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+      }
+      
+      .tool-links {
+        flex-direction: column;
+      }
+      
+      .back-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 45px;
+        height: 45px;
+      }
+    }
+    
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-in {
+      animation: fadeInUp 0.6s ease-out;
+    }
+    
+    /* Loading States */
+    .loading {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    
+    /* Accessibility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+    
+    /* Focus Styles */
+    a:focus,
+    button:focus {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+    
+    /* Print Styles */
+    @media print {
+      .sidebar,
+      .mobile-nav,
+      .back-to-top {
+        display: none;
+      }
+      
+      .main-content {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
 
-<body class="w3-black container-sm">
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-home w3-xlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-user w3-xlarge"></i>
-      <p>ABOUT ME</p>
-    </a>
-    <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-briefcase w3-xlarge"></i>
-      <p>Experience</p>
-    </a>
-    <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-graduation-cap w3-xlarge"></i>
-      <p>EDUCATION</p>
-    </a>
-    <a href="#publication" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-book w3-xlarge"></i>
-      <p>PUBLICATION</p>
-    </a>
-    <a href="#tools" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-tools w3-xlarge"></i>
-      <p>TOOLS</p>
-    </a>
-    <a href="#supervision" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-users w3-xlarge"></i>
-      <p>SUPERVISION</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-envelope w3-xlarge"></i>
-      <p>CONTACT</p>
-    </a>
-  </nav>
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT ME</a>
-      <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">Experience</a>
-      <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
-      <a href="#publication" class="w3-bar-item w3-button" style="width:25% !important">PUBLICATION</a>
-      <a href="#tools" class="w3-bar-item w3-button" style="width:25% !important">TOOLS</a>
-      <a href="#supervision" class="w3-bar-item w3-button" style="width:25% !important">SUPERVISION</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+<body>
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar" role="navigation" aria-label="Main navigation">
+    <nav>
+      <a href="#home" aria-label="Home">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="#about" aria-label="About Me">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+      <a href="#experience" aria-label="Experience">
+        <i class="fas fa-briefcase"></i>
+        <span>Experience</span>
+      </a>
+      <a href="#education" aria-label="Education">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Education</span>
+      </a>
+      <a href="#publications" aria-label="Publications">
+        <i class="fas fa-book"></i>
+        <span>Publications</span>
+      </a>
+      <a href="#tools" aria-label="Tools">
+        <i class="fas fa-tools"></i>
+        <span>Tools</span>
+      </a>
+      <a href="#supervision" aria-label="Supervision">
+        <i class="fas fa-users"></i>
+        <span>Supervision</span>
+      </a>
+      <a href="#contact" aria-label="Contact">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-nav-content">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#tools">Tools</a>
+      <a href="#supervision">Supervision</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
-  <!-- Page Content -->
-  <div class="w3-padding-32" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Majid Mollaeefar</h1>
-      <p> Cybersecurity | Privacy Enthusiast. </p>
-      <img src="https://majid-mollaeefar.github.io/MajidML/assets/img/img1.jpg" alt="Majid-Mollaeefar" class="w3-image" width="392" height="508">
-    </header>
-    
-    <!-- About Me Section -->
-    <div class="container">
-      <div class="w3-content w3-justify w3-text-withe w3-padding-16" id="about">
-        <h2 class="w3-text-white">About Me</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <p class="col animate-box" data-animate-effect="fadeInLeft">
-        I am a highly skilled and experienced cybersecurity specialist with a focus on risk management, IT security, risk assessment and analysis, data protection, and compliance regulations. My extensive research background has equipped me with strong analytical skills, including the ability to design and conduct studies, analyze data, and present findings to a wide range of audiences.
-        
-           
-        </p>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Majid Mollaeefar</h1>
+        <p class="hero-subtitle">Cybersecurity Specialist | Privacy Enthusiast</p>
+        <img src="https://majid-mollaeefar.github.io/MajidML/assets/img/img1.jpg" 
+             alt="Majid Mollaeefar" 
+             class="hero-image"
+             loading="lazy">
       </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+        </div>
+        
+        <div class="professional-summary">
+          <h3>Professional Summary</h3>
+          <p>Highly skilled cybersecurity specialist with 7+ years of experience specializing in risk management, threat modeling, and privacy protection. Expert in developing AI-powered security tools and conducting comprehensive security assessments for critical systems. Passionate about bridging the gap between cutting-edge AI technology and practical cybersecurity solutions.</p>
+        </div>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="number" id="stat-publications">0</span>
+            <span class="label">Publications</span>
+          </div>
+          <div class="stat-card">
+            <span class="number">7+</span>
+            <span class="label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="number" id="stat-tools">0</span>
+            <span class="label">Tools</span>
+          </div>
+          <div class="stat-card">
+            <span class="number" id="stat-students">0</span>
+            <span class="label">Students Supervised</span>
+          </div>
+        </div>
+        
+        <h3>Core Expertise</h3>
+        <div class="skills-container">
+          <div class="skill-badge">
+            <i class="fas fa-shield-alt"></i>
+            <span>Risk Assessment & Management</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-user-secret"></i>
+            <span>Privacy Protection & GDPR</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-bug"></i>
+            <span>Threat Modeling</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-robot"></i>
+            <span>AI-Powered Security</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-car"></i>
+            <span>Automotive Cybersecurity</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-balance-scale"></i>
+            <span>ISO/SAE 21434 & ISO 27001</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-file-contract"></i>
+            <span>DPIA & Compliance</span>
+          </div>
+          <div class="skill-badge">
+            <i class="fas fa-code"></i>
+            <span>Python, Java, JavaScript</span>
+          </div>
+        </div>
+        
+        <p>I am a highly skilled and experienced cybersecurity specialist with a focus on risk management, IT security, risk assessment and analysis, data protection, and compliance regulations. My extensive research background has equipped me with strong analytical skills, including the ability to design and conduct studies, analyze data, and present findings to a wide range of audiences.</p>
+      </div>
+    </section>
 
     <!-- Experience Section -->
-    <div class="container">
-      <div class="w3-content w3-justify w3-text-white w3-padding-16" id="experience">
-        <h2 class="w3-text-white">Experience</h2>
-        <hr style="width:200px" class="w3-opacity">
-        
-        <div class="col animate-box" data-animate-effect="fadeInLeft">
-          <h3 class="w3-text-white">Cybersecurity Specialist</h3>
-          <p class="w3-opacity">Fondazione Bruno Kessler (FBK), Trento, Italy | April 2023 – Present</p>
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2>Professional Experience</h2>
         </div>
+        
+        <article class="card">
+          <h3>Cybersecurity Specialist</h3>
+          <div class="meta">
+            <i class="fas fa-building"></i>
+            <span>Fondazione Bruno Kessler (FBK), Trento, Italy</span>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            <span>April 2023 – Present</span>
+          </div>
+          <p>Leading cybersecurity initiatives focusing on AI-powered threat analysis, privacy assessments, and risk management strategies for critical systems including automotive cybersecurity and digital identity solutions.</p>
+        </article>
 
-        <div class="col animate-box" data-animate-effect="fadeInLeft">
-          <h3 class="w3-text-white">Cybersecurity Researcher (Ph.D. career)</h3>
-          <p class="w3-opacity">Fondazione Bruno Kessler (FBK), Trento, Italy | Nov 2018 – Nov 2022</p>
-          <!-- <p>
-            - Developed the Multi-Stakeholder Risk Minimization methodology to balance privacy, security, and cost considerations in risk mitigation strategies.<br>
-            - Led the DPIA for the Trace4Safe contact tracing system, ensuring GDPR compliance and identifying security risks in real-world systems.<br>
-            - Conducted threat analyses for critical systems, including the EU Digital Identity Wallet and E-Voting protocols, identifying vulnerabilities and proposing countermeasures.<br>
-            - Designed and developed AutoSecGPT, an AI-powered tool automating Threat Analysis and Risk Assessment (TARA) processes for automotive cybersecurity, compliant with ISO/SAE 21434.<br>
-            - Created PILLAR, an AI-driven privacy threat modeling tool that automates privacy risk analysis using LINDDUN and generates comprehensive DFDs and privacy reports.<br>
-            - Contributed to European HORIZON research proposals, focusing on AI robustness, cybersecurity, and privacy protection.<br>
-            - Played a key role in the JuLIA European project, formulating risk-aware strategies for AI use in judicial systems.<br>
-            - Supervised and mentored students at the University of Trento, guiding them in cybersecurity research and privacy-enhancing technologies.
-          </p> -->
-        </div>
+        <article class="card">
+          <h3>Cybersecurity Researcher (Ph.D. Career)</h3>
+          <div class="meta">
+            <i class="fas fa-building"></i>
+            <span>Fondazione Bruno Kessler (FBK), Trento, Italy</span>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            <span>November 2018 – November 2022</span>
+          </div>
+          <p>Developed innovative methodologies for multi-stakeholder risk assessment, conducted Data Protection Impact Assessments (DPIA), and created AI-powered tools for automated threat analysis and privacy risk modeling.</p>
+        </article>
         
-        <div class="col animate-box" data-animate-effect="fadeInLeft">
-          <h3 class="w3-text-white">Junior Information Security Specialist</h3>
-          <p class="w3-opacity">Arian Holding, Tehran | Feb 2017 – Jan 2018</p>
-          <!-- <p>
-            - Conducted gap analyses to improve the company’s information security posture, achieving ISO 27001 compliance.<br>
-            - Drafted and implemented ISMS documentation, improving governance and security standards.<br>
-            - Delivered training and awareness programs to employees to enhance understanding of information security risks
-            and best practices.
-          </p> -->
-        </div>
-        
+        <article class="card">
+          <h3>Junior Information Security Specialist</h3>
+          <div class="meta">
+            <i class="fas fa-building"></i>
+            <span>Arian Holding, Tehran</span>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            <span>February 2017 – January 2018</span>
+          </div>
+          <p>Conducted comprehensive gap analyses to achieve ISO 27001 compliance, drafted and implemented ISMS documentation, and delivered training programs to enhance organizational security awareness.</p>
+        </article>
       </div>
-    </div>
-    
+    </section>
 
-
-
-
-
-
-
-	  <!-- Education Section -->
-<div class="container">
-  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="education">
-    <h2 class="w3-text-white">Education</h2>
-    <hr style="width:200px" class="w3-opacity">
-    
-    <div style="border-left: 5px solid #000039; padding-left: 10px;">
-      <p><strong>Ph.D. Cybersecurity Posture</strong><br>University of Genova, Genova, Italy<br>Nov 2018 - Nov 2022</p>  
-      <p><em>Dissertation: “Automating the Quantification and Mitigation of Risks for Multiple Stakeholders”</em>
-        <a href="https://majidml.com/Files/PhD_Thesis.pdf" target="_blank" class="w3-hover-text-amber">(pdf)</a>
-      </p>
-      <!-- <p><em>Advisor: Prof. <a href="https://cs.fbk.eu/people/silvio-ranise" target="_blank" class="w3-hover-text-amber"><strong>Silvio Ranise</strong></a></em></p> -->
-    </div>
-    
-  </div>
-</div>
-
-
-
-
-
-    <!-- <div class="container">
-      <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
-        <h2 class="w3-text-white">Topics of Interest</h2>
-        <hr style="width:200px" class="w3-opacity">
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Security and Privacy Risk Assessment</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Threat Modelling</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Security and Privacy Requirements</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Privacy Preserving</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Socio-Technical Systems</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Security and Privacy Modelling</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">Privacy Impact Assessment</li>
-          <li class="col animate-box" data-animate-effect="fadeInLeft">GDPR Compliance</li>
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <h2>Education</h2>
+        </div>
+        
+        <article class="card">
+          <h3>Ph.D. in Cybersecurity</h3>
+          <div class="meta">
+            <i class="fas fa-university"></i>
+            <span>University of Genova, Genova, Italy</span>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            <span>November 2018 - November 2022</span>
+          </div>
+          <p><strong>Dissertation:</strong> "Automating the Quantification and Mitigation of Risks for Multiple Stakeholders"</p>
+          <a href="https://majidml.com/Files/PhD_Thesis.pdf" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-pdf"></i> View Thesis
+          </a>
+        </article>
       </div>
-    </div> -->
+    </section>
 
-    <!-- Publication Table -->
-    <div class="container">
-    <div class="w3-content w3-justify w3-text-white w3-padding-64" id="publication">
-        <h2 class="w3-text-white">Publications</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <table class="table table-xl table-borderless table-black w3-text-white ">
-            <thead>
-                <tr class="col animate-box" data-animate-effect="fadeInLeft">
-                    <th scope="col"> #</th>
-                    <th scope="col"> Title</th>
-                    <th scope="col">Year</th>
-                </tr>
-            </thead>
+    <!-- Publications Section -->
+    <section id="publications">
+      <div class="container">
+        <div class="section-header">
+          <h2>Publications</h2>
+        </div>
+        
+        <article class="publication-item" data-type="journal">
+          <div class="publication-year">2025</div>
+          <h3 class="publication-title">A comparative benchmark study of LLM-based threat elicitation tools</h3>
+          <p class="publication-authors">Dimitri Van Landuyt, <strong>Majid Mollaeefar</strong>, Mario Raciti, Stef Verreydt, Abdulaziz Kalash, Andrea Bissoli, Davy Preuveneers, Giampaolo Bella, Silvio Ranise</p>
+          <p class="publication-venue">Journal of Future Generation Computer Systems (FGCS) <span class="publication-badge journal">Journal</span></p>
+        </article>
 
-          <tbody>
-<!--The Paper List  -->
-          <tr class="col animate-box" data-animate-effect="fadeInLeft">
-            <th scope="row"> </th>
-            <td class="w3-text-white w3-hover-text-amber">A comparative benchmark study of LLM-based threat elicitation tools 
-              <div class="w3-text-grey w3-padding-8">Dimitri Van Landuyt, <strong>Majid Mollaeefar</strong>, Mario Raciti, Stef Verreydt, Abdulaziz Kalash, Andrea Bissoli, Davy Preuveneers, Giampaolo Bella, Silvio Ranise. </div>
-              <div class="w3-text-grey w3-text-light"> Journal of Future Generation Computer Systems (FGCS). 
-                <!-- <a href="https://majidml.com/Files/FGCS25.pdf" target="_blank" class="w3-hover-text-amber">(pdf) -->
-              </div>
-            </td>
-            <th> 2025</th>
-          </tr>
+        <article class="publication-item" data-type="conference">
+          <div class="publication-year">2025</div>
+          <h3 class="publication-title">Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Amir Sharif, Zahra Ebadi Ansaroudi, Giada Sciarretta, Francesco Antonio Marino, Silvio Ranise</p>
+          <p class="publication-venue">The 30th Nordic Conference on Secure IT Systems (Nordsec25) <span class="publication-badge conference">Conference</span></p>
+          <div class="publication-links">
+            <a href="https://majidml.com/Files/Nordsec25.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+          </div>
+        </article>
 
-          <tr class="col animate-box" data-animate-effect="fadeInLeft">
-            <th scope="row"> </th>
-            <td class="w3-text-white w3-hover-text-amber">Multi-entity Control-based Risk Assessment: A European Digital Identity Wallet Use Case 
-              <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Amir Sharif, Zahra Ebadi Ansaroudi, Giada Sciarretta, Francesco Antonio Mrino, Silvio Ranise. </div>
-              <div class="w3-text-grey w3-text-light"> The 30th Nordic Conference on Secure IT Systems (Nordsec25). 
-                <a href="https://majidml.com/Files/Nordsec25.pdf" target="_blank" class="w3-hover-text-amber">(pdf)
-              </div>
-            </td>
-            <th> 2025</th>
-          </tr>
+        <article class="publication-item" data-type="workshop">
+          <div class="publication-year">2025</div>
+          <h3 class="publication-title">PILLAR: LINDDUN Privacy Threat Modeling using LLMs</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Andrea Bissoli, Dimitri Van Landuyt, Silvio Ranise</p>
+          <p class="publication-venue">International Workshop on Privacy Engineering (IWPE'25) <span class="publication-badge workshop">Workshop</span></p>
+          <div class="publication-links">
+            <a href="https://majidml.com/Files/PILLAR.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+          </div>
+        </article>
 
-          <tr class="col animate-box" data-animate-effect="fadeInLeft">
-            <th scope="row"> </th>
-            <td class="w3-text-white w3-hover-text-amber">PILLAR: LINDDUN Privacy Threat Modeling using LLMs 
-              <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Andrea Bissoli, Dimitri Van Landuyt, Silvio Ranise. </div>
-              <div class="w3-text-grey w3-text-light"> International Workshop on Privacy Engineering (IWPE'25). 
-                <a href="https://majidml.com/Files/PILLAR.pdf" target="_blank" class="w3-hover-text-amber">(pdf)
-              </div>
-            </td>
-            <th> 2025</th>
-          </tr>
-            
-          <tr class="col animate-box" data-animate-effect="fadeInLeft">
-            <th scope="row"> </th>
-            <td class="w3-text-white w3-hover-text-amber">Modeling and Assessing Coercion Threats in Electronic Voting 
-              <div class="w3-text-grey w3-padding-8">Riccardo Longo, <strong>Majid Mollaeefar</strong>, Umberto Morelli, Chiara Spadafora, Alessandro Tomasi, Silvio Ranise. </div>
-              <div class="w3-text-grey w3-text-light"> 19th International Conference on Risks and Security of Internet and Systems (CRiSIS-Best Paper Award 🏆). 
-              </div>
-            </td>
-            <th> 2024</th>
-          </tr>
+        <article class="publication-item" data-type="conference" data-award="best-paper">
+          <div class="publication-year">2024</div>
+          <h3 class="publication-title">Modeling and Assessing Coercion Threats in Electronic Voting</h3>
+          <p class="publication-authors">Riccardo Longo, <strong>Majid Mollaeefar</strong>, Umberto Morelli, Chiara Spadafora, Alessandro Tomasi, Silvio Ranise</p>
+          <p class="publication-venue">19th International Conference on Risks and Security of Internet and Systems (CRiSIS) <span class="publication-badge conference">Conference</span><span class="publication-badge best-paper">Best Paper 🏆</span></p>
+        </article>
 
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> </th>
-              <td class="w3-text-white w3-hover-text-amber">Protecting Digital Identity Wallet: A Threat Model in the Age of eIDAS 2.0 
-                <div class="w3-text-grey w3-padding-8">Amir Sharif, Zahra Ebadi Ansaroudi, Giada Sciarretta, Daniela Pöhn, <strong>Majid Mollaeefar</strong>, Wolfgang Hommel, and Silvio Ranise. </div>
-                <div class="w3-text-grey w3-text-light"> 19th International Conference on Risks and Security of Internet and Systems (CRiSIS). 
-                </div>
-              </td>
-              <th> 2024</th>
-            </tr>
+        <article class="publication-item" data-type="conference">
+          <div class="publication-year">2024</div>
+          <h3 class="publication-title">Protecting Digital Identity Wallet: A Threat Model in the Age of eIDAS 2.0</h3>
+          <p class="publication-authors">Amir Sharif, Zahra Ebadi Ansaroudi, Giada Sciarretta, Daniela Pöhn, <strong>Majid Mollaeefar</strong>, Wolfgang Hommel, Silvio Ranise</p>
+          <p class="publication-venue">19th International Conference on Risks and Security of Internet and Systems (CRiSIS) <span class="publication-badge conference">Conference</span></p>
+        </article>
 
-	          <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> </th>
-              <td class="w3-text-white w3-hover-text-amber">A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures. 
-                <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Eleonora Marchesini, Roberto Carbone, and Silvio Ranise. </div>
-                <div class="w3-text-grey w3-text-light"> 4th Ital-AI Workshop AI Responsabile e Affidabile. <a href="https://majidml.com/Files/A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures.pdf" target="_blank" class="w3-hover-text-amber">(pdf)</a>
-                </div>
-              </td>
-              <th> 2024</th>
-            </tr>
-		  
- 	          <!-- <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> </th>
-              <td class="w3-text-white w3-hover-text-amber">The DPIA of an Enterprise Contact Tracing Solution: Lessons Learned at the Crossroads of Cybersecurity and Data Protection
-                <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Roberto Carbone, and Silvio Ranise. </div>
-                <div class="w3-text-grey w3-text-light"> To be submitted. Unpublished version <a href="https://majidml.com/Files/Trace4Safe.pdf" target="_blank" class="w3-hover-text-amber">(pdf)</a>
-                </div>
-              </td>
-              <th> 2024</th>
-            </tr> -->
-		  
-           <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> </th>
-              <td class="w3-text-white w3-hover-text-amber">Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR
-                <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, and Silvio Ranise. </div>
-                <div class="w3-text-grey w3-text-light"> Journal of Computers & Securit. <a href="https://majidml.com/Files/1-s2.0-S0167404823001165-main.pdf" target="_blank" class="w3-hover-text-amber">(pdf)</a>
-                </div>
-              </td>
-              <th> 2023</th>
-            </tr>
+        <article class="publication-item" data-type="workshop">
+          <div class="publication-year">2024</div>
+          <h3 class="publication-title">A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Eleonora Marchesini, Roberto Carbone, Silvio Ranise</p>
+          <p class="publication-venue">4th Ital-AI Workshop AI Responsabile e Affidabile <span class="publication-badge workshop">Workshop</span></p>
+          <div class="publication-links">
+            <a href="https://majidml.com/Files/A Risk-based Approach to Trustworthy AI Systems for Judicial Procedures.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="publication-item" data-type="journal">
+          <div class="publication-year">2023</div>
+          <h3 class="publication-title">Identifying and Quantifying Trade-offs in Multi-Stakeholder Risk Evaluation with Applications to the Data Protection Impact Assessment of the GDPR</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Silvio Ranise</p>
+          <p class="publication-venue">Journal of Computers & Security <span class="publication-badge journal">Journal</span></p>
+          <div class="publication-links">
+            <a href="https://majidml.com/Files/1-s2.0-S0167404823001165-main.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="publication-item" data-type="conference">
+          <div class="publication-year">2020</div>
+          <h3 class="publication-title">Multi-Stakeholder Cybersecurity Risk Assessment for Data Protection</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Alberto Siena, Silvio Ranise</p>
+          <p class="publication-venue">17th International Conference on Security and Cryptography (SECRYPT 2020) <span class="publication-badge conference">Conference</span></p>
+          <div class="publication-links">
+            <a href="https://majidml.com/Files/Multi-Stakeholder Cybersecurity Risk Assessment for Data Protection.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="publication-item" data-type="journal">
+          <div class="publication-year">2017</div>
+          <h3 class="publication-title">A novel encryption scheme for colored image based on high level chaotic maps</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Amir Sharif, Mahboubeh Nazari</p>
+          <p class="publication-venue">Journal of Multimedia Tools and Applications <span class="publication-badge journal">Journal</span></p>
+        </article>
+
+        <article class="publication-item" data-type="journal">
+          <div class="publication-year">2017</div>
+          <h3 class="publication-title">A novel method for digital image steganography based on a new three-dimensional chaotic map</h3>
+          <p class="publication-authors">Sharif, Amir, <strong>Majid Mollaeefar</strong>, Mahboubeh Nazari</p>
+          <p class="publication-venue">Journal of Multimedia Tools and Applications <span class="publication-badge journal">Journal</span></p>
+        </article>
+
+        <article class="publication-item" data-type="journal">
+          <div class="publication-year">2017</div>
+          <h3 class="publication-title">An improved method for digital image fragile watermarking based on chaotic maps</h3>
+          <p class="publication-authors">Nazari, Mahboubeh, Amir Sharif, <strong>Majid Mollaeefar</strong></p>
+          <p class="publication-venue">Journal of Multimedia Tools and Applications <span class="publication-badge journal">Journal</span></p>
+        </article>
+
+        <article class="publication-item" data-type="conference">
+          <div class="publication-year">2016</div>
+          <h3 class="publication-title">A novel method for image encryption using chaotic maps</h3>
+          <p class="publication-authors">Amir Sharif, <strong>Majid Mollaeefar</strong>, M. Habibi, M. Nazari</p>
+          <p class="publication-venue">3rd International Conference on Applied Research in Computer and Information Technology <span class="publication-badge conference">Conference</span></p>
+        </article>
+
+        <article class="publication-item" data-type="conference">
+          <div class="publication-year">2015</div>
+          <h3 class="publication-title">An improved method for image encryption based on high level chaotic maps and improved gravity model</h3>
+          <p class="publication-authors"><strong>Majid Mollaeefar</strong>, Amir Sharif, M. Habibi, Mahboubeh Nazari</p>
+          <p class="publication-venue">International Congress on Technology, Communication and Knowledge (ICTCK) <span class="publication-badge conference">Conference</span></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools">
+      <div class="container">
+        <div class="section-header">
+          <h2>Developed Tools</h2>
+        </div>
+        
+        <article class="tool-card tool-item">
+          <h3><i class="fas fa-car"></i> AutoSecGPT</h3>
+          <p><strong>Description:</strong> An AI-powered tool designed to automate threat modeling for automotive applications, aligned with ISO/SAE 21434 standard. AutoSecGPT supports security teams by facilitating the entire cybersecurity engineering process—from threat identification to risk assessment.</p>
           
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> </th>
-              <td class="w3-text-white w3-hover-text-amber">Multi-Stakeholder Cybersecurity Risk Assessment for Data
-                Protection.
-                <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Alberto Siena, and Silvio Ranise. </div>
-                <div class="w3-text-grey w3-text-light">17th International Conference on Security and Cryptography (SECRYPT 2020). <a href="https://majidml.com/Files/Multi-Stakeholder Cybersecurity Risk Assessment for Data Protection.pdf" target="_blank" class="w3-hover-text-amber">(pdf)</a>
-                  
-                </div>
-              </td>
-              <th> 2020</th>
-            </tr>
-
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> 3</th>
-              <td class="w3-hover-text-amber">A novel encryption scheme for colored image based on high level chaotic
-                maps.
-                <div class="w3-text-grey w3-padding-8"><strong>Majid Mollaeefar</strong>, Amir Sharif, and Mahboubeh Nazari.
-                </div>
-                <div class="w3-text-grey">Journal of Multimedia Tools and Applications</div>
-              </td>
-              <th> 2017</th>
-            </tr>
-
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> 4</th>
-              <td class="w3-hover-text-amber"> A novel method for digital image steganography based on a new
-                three-dimensional chaotic map.
-                <div class="w3-text-grey w3-padding-8">Sharif, Amir, <strong>Majid Mollaeefar</strong>, and Mahboubeh Nazari.
-                </div>
-                <div class="w3-text-grey">Journal of Multimedia Tools and Applications</div>
-              </td>
-              <th> 2017</th>
-            </tr>
-
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> 5</th>
-              <td class="w3-hover-text-amber">An improved method for digital image fragile watermarking based on chaotic
-                maps.
-                <div class="w3-text-grey w3-padding-8"> Nazari, Mahboubeh, Amir Sharif, and <strong>Majid Mollaeefar</strong>.
-                </div>
-                <div class="w3-text-grey">Journal of Multimedia Tools and Applications</div>
-              </td>
-              <th> 2017</th>
-            </tr>
-
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> 6</th>
-              <td class="w3-hover-text-amber">A novel method for image encryption using chaotic maps.
-                <div class="w3-text-gray w3-padding-8"> Amir Sharif, <strong>Majid Mollaeefar</strong>, M. Habibi, and M. Nazari.
-                </div>
-                <div class="w3-text-grey"> 3rd international conference on applied research in computer and information
-                  technology.</div>
-              </td>
-              <th> 2016</th>
-            </tr>
-
-            <tr class="col animate-box" data-animate-effect="fadeInLeft">
-              <th scope="row"> 7</th>
-              <td class="w3-hover-text-amber">An improved method for image encryption based on high level chaotic maps
-                and improved gravity model.
-                <div class="w3-text-grey w3-padding-8"> <strong>Majid Mollaeefar</strong>, Amir Sharif, M. Habibi, and Mahboubeh Nazari.
-                </div>
-                <div class="w3-text-grey"> International Congress on Technology, Communication and Knowledge (ICTCK).
-                </div>
-              </td>
-              <th> 2015</th>
-            </tr>
-<!--End of the Paper list  -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- end Table -->
-    
-    
-    <!-- Developed Tools -->
-    <div class="container">
-      <div class="w3-content w3-justify w3-text-white w3-padding-64" id="tools">
-        <h2 class="w3-text-white">Developed Tools</h2>
-        <hr style="width:200px" class="w3-opacity">
-        
-        <div>
-          <h3 class="w3-hover-text-amber">AutoSecGPT</h3>
-          <p><strong>Description:</strong> AutoSecGPT is an AI-powered tool designed to help teams produce better threat models for their automotive applications. Aligned with the ISO/SAE 21434 standard, AutoSecGPT supports security teams by facilitating the entire cybersecurity engineering process—from threat identification to risk assessment. The ISO/SAE 21434 standard emphasizes the importance of identifying and assessing cybersecurity risks to anticipate and prepare for potential attack scenarios. Threat modeling, a critical activity in the software development lifecycle, is often overlooked or poorly executed, and the AutoSecGPT objective is to address this gap. Some features of the tool are:</p>
+          <h4>Key Features:</h4>
           <ul>
             <li>Works with different LLMs such as OpenAI to analyze threat scenarios</li>
-            <li>Identify security threats specific to automotive systems</li>
-            <li>Generate detailed threat scenarios and descriptions to facilitate risk understanding</li>
-            <li>Visualize threat scenarios through attack graphs, enabling users to better understand threat causes</li>
-            <li>Conduct likelihood and impact assessments to prioritize threats and propose mitigation controls</li>
+            <li>Identifies security threats specific to automotive systems</li>
+            <li>Generates detailed threat scenarios and descriptions to facilitate risk understanding</li>
+            <li>Visualizes threat scenarios through attack graphs</li>
+            <li>Conducts likelihood and impact assessments to prioritize threats</li>
             <li>Supports Threat Analysis and Risk Assessment (TARA) as per ISO/SAE 21434</li>
           </ul>
-          <p><strong>Program Language:</strong> Python, Javascript, HTML</p>
-          <p><strong>Access:</strong> Publicly available. <a href="https://github.com/Majid-Mollaeefar/auto-sec-gpt" target="_blank" class="w3-hover-text-amber"> Link </a>. For a detailed demonstration of the tool watch the <a href="https://majidml.com/assets/tool/long-demo.mp4" target="_blank" class="w3-hover-text-amber"> Demo </a></p>
-        </div>
-        
-        <div>
-          <h3 class="w3-hover-text-amber">PILLAR</h3>
-          <p><strong>Description:</strong> PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report) is an AI-powered tool developed to automate and enhance privacy threat modeling. Built on the LINDDUN framework, PILLAR leverages Large Language Models (LLMs) to automatically generate Data Flow Diagrams (DFDs), identify privacy threats, and prioritize risks. PILLAR is especially useful for industries dealing with sensitive data and needing to comply with regulations such as GDPR. By simplifying privacy threat modeling, PILLAR ensures that organizations can efficiently identify, mitigate, and manage privacy risks throughout the system development lifecycle. Key features include:</p>
+          
+          <div class="tool-meta">
+            <div class="tool-meta-item">
+              <i class="fas fa-code"></i>
+              <strong>Languages:</strong> Python, JavaScript, HTML
+            </div>
+          </div>
+          
+          <div class="tool-links">
+            <a href="https://github.com/Majid-Mollaeefar/auto-sec-gpt" target="_blank" rel="noopener noreferrer" class="tool-btn">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a href="https://majidml.com/assets/tool/long-demo.mp4" target="_blank" rel="noopener noreferrer" class="tool-btn">
+              <i class="fas fa-video"></i> Watch Demo
+            </a>
+          </div>
+        </article>
+
+        <article class="tool-card tool-item">
+          <h3><i class="fas fa-user-shield"></i> PILLAR</h3>
+          <p><strong>Description:</strong> Privacy risk Identification with LINDDUN and LLM Analysis Report (PILLAR) is an AI-powered tool developed to automate and enhance privacy threat modeling. Built on the LINDDUN framework, PILLAR leverages Large Language Models (LLMs) to automatically generate Data Flow Diagrams (DFDs), identify privacy threats, and prioritize risks.</p>
+          
+          <h4>Key Features:</h4>
           <ul>
             <li>Automates privacy threat modeling using LINDDUN and LLMs</li>
             <li>Generates DFDs from natural language descriptions</li>
-            <li>Simulates multi-agent collaboration for more comprehensive threat analysis</li>
-            <li>Assesses the impact of identified privacy threats and suggests control measures based on the privacy patterns</li>
-            <li>Generates a comprehensive Report on the privacy threat modeling of the application</li>
+            <li>Simulates multi-agent collaboration for comprehensive threat analysis</li>
+            <li>Assesses the impact of identified privacy threats</li>
+            <li>Suggests control measures based on privacy patterns</li>
+            <li>Generates comprehensive reports on privacy threat modeling</li>
           </ul>
-          <p><strong>Program Language:</strong> Python</p>
-          <p><strong>Access:</strong> Publicly available. <a href="https://github.com/stfbk/PILLAR" target="_blank" class="w3-hover-text-amber"> GitHub Link </a>. Try it out at this <a href="https://pillar-ptm.streamlit.app/" target="_blank" class="w3-hover-text-amber"> Website. </a></p>
-        </div>
+          
+          <div class="tool-meta">
+            <div class="tool-meta-item">
+              <i class="fas fa-code"></i>
+              <strong>Language:</strong> Python
+            </div>
+          </div>
+          
+          <div class="tool-links">
+            <a href="https://github.com/stfbk/PILLAR" target="_blank" rel="noopener noreferrer" class="tool-btn">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a href="https://pillar-ptm.streamlit.app/" target="_blank" rel="noopener noreferrer" class="tool-btn">
+              <i class="fas fa-globe"></i> Try Live Demo
+            </a>
+          </div>
+        </article>
 
-
-        <div>
-          <h3 class="w3-hover-text-amber"> Multi-Stakeholder Risk Assessment Tool</h3>
-          <p><strong>Description:</strong> It is a risk assessment tool that enables risk analysts to perform a risk evaluation in a multi-stakeholder manner for a given system. The tool has a two-fold purpose:
-            <ul>
-              <li>Evaluate and quantify risk levels for all involved stakeholders</li>
-              <li>Solving the risk minimization problem, which is a multi-objective optimization problem</li>
-            </ul>
-          </p>
-          <p><strong>Program Language:</strong> This tool is written in Java and partially in Scala, it works with JSON files, all inputs and outputs.</p>
-          <p><strong>Access:</strong> Publicly available. <a href="https://github.com/Majid-Mollaeefar/MSRMP" target="_blank" class="w3-hover-text-amber"> Link </a></p>
-        </div>
-
-        <!-- <div>
-          <h3 class="w3-hover-text-amber"> Privacy Assessment GPT</h3>
-          <p><strong>Description:</strong> It is an AI-powered tool aiming to support privacy threat modeling and risk assessment by leveraging LLMs. Some features of the tool are: </p>
+        <article class="tool-card tool-item">
+          <h3><i class="fas fa-balance-scale"></i> Multi-Stakeholder Risk Assessment Tool</h3>
+          <p><strong>Description:</strong> A comprehensive risk assessment tool that enables risk analysts to perform risk evaluation in a multi-stakeholder manner for a given system. The tool addresses the complexity of balancing different stakeholders' interests in risk management decisions.</p>
+          
+          <h4>Purpose:</h4>
           <ul>
-            <li>Works with different LLMs such as Open AI and Mistral</li>
-            <li>Identify privacy threats based on LINDDUN threat categories together with potential consequences</li>
-            <li>Generate threat scenarios and propose controls for the identified threats</li>
-            <li>Generate different mitigation levels and interact the user for risk assessment in the form of generating a questionnaire</li>
-            <li>and many more</li>
+            <li>Evaluate and quantify risk levels for all involved stakeholders</li>
+            <li>Solve the risk minimization problem as a multi-objective optimization challenge</li>
+            <li>Identify trade-offs between conflicting stakeholder interests</li>
+            <li>Support decision-making with quantitative risk data</li>
           </ul>
-          <p><strong>Program Language:</strong> Python.</p>
-          <p><strong>Access:</strong> Not publicly available yet. It is an ongoing project and if you are intersted, please contact me for more details .</p>
-        </div> -->
+          
+          <div class="tool-meta">
+            <div class="tool-meta-item">
+              <i class="fas fa-code"></i>
+              <strong>Languages:</strong> Java, Scala
+            </div>
+            <div class="tool-meta-item">
+              <i class="fas fa-file-code"></i>
+              <strong>Data Format:</strong> JSON
+            </div>
+          </div>
+          
+          <div class="tool-links">
+            <a href="https://github.com/Majid-Mollaeefar/MSRMP" target="_blank" rel="noopener noreferrer" class="tool-btn">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Supervision Section -->
+    <section id="supervision">
+      <div class="container">
+        <div class="section-header">
+          <h2>Supervised Internships & Theses</h2>
+        </div>
         
+        <h3>Past Students:</h3>
+        
+        <article class="card student-item">
+          <h3>Agentic Threat Modeling</h3>
+          <div class="meta">
+            <i class="fas fa-user-graduate"></i>
+            <strong>Daniele Calvo</strong>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            Bachelor's Thesis, University of Trento, May 2025
+          </div>
+        </article>
 
+        <article class="card student-item">
+          <h3>Exploring LLMs for privacy threats assessment</h3>
+          <div class="meta">
+            <i class="fas fa-user-graduate"></i>
+            <strong>Andrea Bissoli</strong>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            Bachelor's Thesis, University of Trento, July 2024
+          </div>
+        </article>
+
+        <article class="card student-item">
+          <h3>Transferability of Adversarial Machine Learning Attacks</h3>
+          <div class="meta">
+            <i class="fas fa-user-graduate"></i>
+            <strong>Stefano Camposilvan</strong>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            Bachelor's Thesis, University of Trento, May 2024
+          </div>
+        </article>
+
+        <article class="card student-item">
+          <h3>Towards Risk Assessment of Adversarial Machine Learning</h3>
+          <div class="meta">
+            <i class="fas fa-user-graduate"></i>
+            <strong>Mattia Bressan</strong>
+          </div>
+          <div class="meta">
+            <i class="fas fa-calendar-alt"></i>
+            Bachelor's Thesis, University of Trento, November 2023
+          </div>
+        </article>
       </div>
-    </div>
-    
-    
+    </section>
 
-
-
-	  <!-- Supervised Section -->
-	<div class="container">
-	  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="supervision">
-	    <h2 class="w3-text-white">Supervised Internship & Theses</h2>
-	    <hr style="width:200px" class="w3-opacity">
-	    
-	    <h3 class="w3-text-white">Current Students:</h3>
-	    <table>
-	      
-	    </table>
-	    
-	    <h3 class="w3-text-white">Past Students:</h3>
-	    <table>
-        <tr class="col animate-box" data-animate-effect="fadeInLeft">
-	        <th scope="row"></th>
-	        <td class="w3-text-white w3-hover-text-amber">
-	          Agentic Threat Modeling
-	          <div class="w3-text-grey w3-padding-8"><strong>Daniele Calvo </strong> (Bachelor's Thesis, University of Trento, May 2025)</div>
-	        </td>
-	      </tr>
-        <tr class="col animate-box" data-animate-effect="fadeInLeft">
-          <th scope="row"></th>
-          <td class="w3-text-white w3-hover-text-amber">
-            Exploring LLMs for privacy threats assessment
-            <div class="w3-text-grey w3-padding-8"><strong>Andrea Bissoli</strong> (Bachelor's Thesis, University of Trento, July 2024)</div>
-          </td>
-        </tr>
-        <tr class="col animate-box" data-animate-effect="fadeInLeft">
-          <th scope="row"></th>
-          <td class="w3-text-white w3-hover-text-amber">
-            Transferability of Adversarial Machine Learning Attacks
-            <div class="w3-text-grey w3-padding-8"><strong>Stefano Camposilvan</strong> (Bachelor's Thesis, University of Trento, May 2024)</div>
-          </td>
-        </tr>
-        <tr class="col animate-box" data-animate-effect="fadeInLeft">
-          <th scope="row"></th>
-          <td class="w3-text-white w3-hover-text-amber">
-            Towards Risk Assessment of Adversarial Machine Learning
-            <div class="w3-text-grey w3-padding-8"><strong>Mattia Bressan</strong> (Bachelor's Thesis, University of Trento, November 2023)</div>
-          </td>
-        </tr>
-      </tr>
-	    </table>
-	  </div>
-	</div>
-		  
     <!-- Contact Section -->
-    <div class="container">
-      <div class="w3-padding-64 w3-content w3-justify w3-text-withe" id="contact">
-        <h2 class="w3-text-white">Contact</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <!-- <class class="w3-section"> -->
-          <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Fondazione Bruno Kessler,
-            Via Sommarive 18, Trento, 38123, Italy. </p>
-          <!-- <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p> -->
-          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: m[surname]@fbk.eu</p>
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+        </div>
+        
+        <div class="card" style="max-width: 700px; margin: 0 auto;">
+          <div class="meta">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Fondazione Bruno Kessler, Via Sommarive 18, Trento, 38123, Italy</span>
+          </div>
+          <div class="meta">
+            <i class="fas fa-envelope"></i>
+            <span>Email: m[surname]@fbk.eu</span>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- Footer Section -->
-    <div class="footer">
-      <div class="icon-bar w3-padding-8 w3-xxlarge w3-center width:40px"> 
-        <h3 class="w3-center w3-text-white w3-large">Other Profiles</h3>
-        <a href="https://github.com/Majid-Mollaeefar"><i class="fab fa-github w3-hover-opacity"></i></a>
-        <a href="https://www.linkedin.com/in/majid-mollaeefar/"><i class="fab fa-linkedin"></i></a>
-        <a href="http://scholar.google.com/citations?user=Z4osjMoAAAAJ&hl=en"><i class="ai ai-google-scholar w3-hover-opacity"></i></a>
-        <a href="https://www.researchgate.net/profile/Majid-Mollaeefar"><i class="ai ai-researchgate w3-hover-opacity"></i></a>
-      </div> 
-    </div>
+    </section>
+  </main>
 
-  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <h3>Connect With Me</h3>
+      <div class="social-links">
+        <a href="https://github.com/Majid-Mollaeefar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/majid-mollaeefar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="http://scholar.google.com/citations?user=Z4osjMoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Majid-Mollaeefar" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+          <i class="ai ai-researchgate"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Majid Mollaeefar. All rights reserved.</p>
+    </div>
+  </footer>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="js/jquery.easing.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.flexslider-min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.countTo.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/modernizr.min.js"></script> 
-  <script src="js/hex.js"></script>
-  <script src="js/dark.mode.toggle.js"></script>
-  <script src="js/script.js"></script>
-<script>
-// This script automatically updates the publication counter.
-document.addEventListener('DOMContentLoaded', function () {
-    const publicationRows = document.querySelectorAll('#publication tbody tr');
-    publicationRows.forEach(function (row, index) {
-        const numberCell = row.querySelector('th[scope="row"]');
-        if (numberCell) {
-            numberCell.textContent = index + 1; // Update the index number
-        }
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // Automated Statistics Counter
+    function updateStatistics() {
+      // Count publications
+      const publicationItems = document.querySelectorAll('.publication-item');
+      const publicationCount = publicationItems.length;
+      const statPublicationsEl = document.getElementById('stat-publications');
+      if (statPublicationsEl) {
+        statPublicationsEl.textContent = publicationCount;
+      }
+      
+      // Count tools
+      const toolItems = document.querySelectorAll('.tool-item');
+      const toolCount = toolItems.length;
+      const statToolsEl = document.getElementById('stat-tools');
+      if (statToolsEl) {
+        statToolsEl.textContent = toolCount;
+      }
+      
+      // Count students supervised
+      const studentItems = document.querySelectorAll('.student-item');
+      const studentCount = studentItems.length;
+      const statStudentsEl = document.getElementById('stat-students');
+      if (statStudentsEl) {
+        statStudentsEl.textContent = studentCount;
+      }
+    }
+    
+    // Run statistics update when DOM is loaded (multiple methods for reliability)
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateStatistics);
+    } else {
+      // DOM already loaded
+      updateStatistics();
+    }
+    
+    // Also run on window load as a backup
+    window.addEventListener('load', updateStatistics);
+    
+    // Back to Top Button
+    const backToTopBtn = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
     });
-});
-</script>
-
+    
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+    
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+    
+    // Active navigation highlighting
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.sidebar a, .mobile-nav a');
+    
+    function highlightNavigation() {
+      let scrollY = window.pageYOffset;
+      
+      sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 100;
+        const sectionId = section.getAttribute('id');
+        
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.style.color = '';
+            if (link.getAttribute('href') === `#${sectionId}`) {
+              link.style.color = 'var(--primary-color)';
+            }
+          });
+        }
+      });
+    }
+    
+    window.addEventListener('scroll', highlightNavigation);
+    
+    // Animate elements on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -100px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.card, .publication-item, .tool-card, .stat-card').forEach(el => {
+      observer.observe(el);
+    });
+    
+    // Keyboard accessibility for back to top button
+    backToTopBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    });
+  </script>
 </body>
 </html>
-
-
-      
-  
-
-
-
