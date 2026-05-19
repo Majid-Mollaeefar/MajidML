@@ -681,6 +681,66 @@
       }
     }
     
+    /* Academic Services */
+    .service-subsection {
+      margin-bottom: 3rem;
+    }
+
+    .subsection-title {
+      color: var(--accent-color);
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .subsection-title i {
+      color: var(--primary-color);
+      font-size: 1.1rem;
+    }
+
+    .service-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .service-list li {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1rem 1.25rem 1rem 2.5rem;
+      color: var(--text-secondary);
+      transition: all var(--transition-speed);
+      position: relative;
+    }
+
+    .service-list li::before {
+      content: "▹";
+      position: absolute;
+      left: 1rem;
+      color: var(--primary-color);
+    }
+
+    .service-list li:hover {
+      border-color: var(--primary-color);
+      color: var(--text-primary);
+    }
+
+    .service-list li strong {
+      color: var(--text-primary);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    .service-list li span {
+      font-size: 0.85rem;
+    }
+
     /* Animations */
     @keyframes fadeInUp {
       from {
@@ -766,9 +826,9 @@
         <i class="fas fa-tools"></i>
         <span>Tools</span>
       </a>
-      <a href="#supervision" aria-label="Supervision">
-        <i class="fas fa-users"></i>
-        <span>Supervision</span>
+      <a href="#academic-services" aria-label="Academic Services">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <span>Services</span>
       </a>
       <a href="#contact" aria-label="Contact">
         <i class="fas fa-envelope"></i>
@@ -786,7 +846,7 @@
       <a href="#education">Education</a>
       <a href="#publications">Publications</a>
       <a href="#tools">Tools</a>
-      <a href="#supervision">Supervision</a>
+      <a href="#academic-services">Services</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -1237,62 +1297,122 @@
       </div>
     </section>
 
-    <!-- Supervision Section -->
-    <section id="supervision">
+    <!-- Academic Services Section -->
+    <section id="academic-services">
       <div class="container">
         <div class="section-header">
-          <h2>Supervised Internships & Theses</h2>
+          <h2>Academic Services</h2>
         </div>
-        
-        <h3>Past Students:</h3>
-        
-        <article class="card student-item">
-          <h3>Agentic Threat Modeling</h3>
-          <div class="meta">
-            <i class="fas fa-user-graduate"></i>
-            <strong>Daniele Calvo</strong>
-          </div>
-          <div class="meta">
-            <i class="fas fa-calendar-alt"></i>
-            Bachelor's Thesis, University of Trento, May 2025
-          </div>
-        </article>
 
-        <article class="card student-item">
-          <h3>Exploring LLMs for privacy threats assessment</h3>
-          <div class="meta">
-            <i class="fas fa-user-graduate"></i>
-            <strong>Andrea Bissoli</strong>
-          </div>
-          <div class="meta">
-            <i class="fas fa-calendar-alt"></i>
-            Bachelor's Thesis, University of Trento, July 2024
-          </div>
-        </article>
+        <!-- Supervision Subsection -->
+        <div class="service-subsection">
+          <h3 class="subsection-title">
+            <i class="fas fa-user-graduate"></i> Supervision
+          </h3>
 
-        <article class="card student-item">
-          <h3>Transferability of Adversarial Machine Learning Attacks</h3>
-          <div class="meta">
-            <i class="fas fa-user-graduate"></i>
-            <strong>Stefano Camposilvan</strong>
-          </div>
-          <div class="meta">
-            <i class="fas fa-calendar-alt"></i>
-            Bachelor's Thesis, University of Trento, May 2024
-          </div>
-        </article>
+          <article class="card student-item">
+            <h3>Agentic Threat Modeling</h3>
+            <div class="meta">
+              <i class="fas fa-user-graduate"></i>
+              <strong>Daniele Calvo</strong>
+            </div>
+            <div class="meta">
+              <i class="fas fa-calendar-alt"></i>
+              Bachelor's Thesis, University of Trento, May 2025
+            </div>
+          </article>
 
-        <article class="card student-item">
-          <h3>Towards Risk Assessment of Adversarial Machine Learning</h3>
-          <div class="meta">
-            <i class="fas fa-user-graduate"></i>
-            <strong>Mattia Bressan</strong>
-          </div>
-          <div class="meta">
-            <i class="fas fa-calendar-alt"></i>
-            Bachelor's Thesis, University of Trento, November 2023
-          </div>
-        </article>
+          <article class="card student-item">
+            <h3>Exploring LLMs for privacy threats assessment</h3>
+            <div class="meta">
+              <i class="fas fa-user-graduate"></i>
+              <strong>Andrea Bissoli</strong>
+            </div>
+            <div class="meta">
+              <i class="fas fa-calendar-alt"></i>
+              Bachelor's Thesis, University of Trento, July 2024
+            </div>
+          </article>
+
+          <article class="card student-item">
+            <h3>Transferability of Adversarial Machine Learning Attacks</h3>
+            <div class="meta">
+              <i class="fas fa-user-graduate"></i>
+              <strong>Stefano Camposilvan</strong>
+            </div>
+            <div class="meta">
+              <i class="fas fa-calendar-alt"></i>
+              Bachelor's Thesis, University of Trento, May 2024
+            </div>
+          </article>
+
+          <article class="card student-item">
+            <h3>Towards Risk Assessment of Adversarial Machine Learning</h3>
+            <div class="meta">
+              <i class="fas fa-user-graduate"></i>
+              <strong>Mattia Bressan</strong>
+            </div>
+            <div class="meta">
+              <i class="fas fa-calendar-alt"></i>
+              Bachelor's Thesis, University of Trento, November 2023
+            </div>
+          </article>
+        </div>
+
+        <!-- PC Member Subsection -->
+        <div class="service-subsection">
+          <h3 class="subsection-title">
+            <i class="fas fa-users-cog"></i> PC Member of Conferences
+          </h3>
+          <ul class="service-list">
+            <li>
+              <strong>IEEE SecDev 2026</strong>
+              <span>ACM Secure Development Conference</span>
+            </li>
+            <li>
+              <strong>PETS 2027</strong>
+              <span>Privacy Enhancing Technologies Symposium</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Reviewer Subsection -->
+        <div class="service-subsection">
+          <h3 class="subsection-title">
+            <i class="fas fa-search"></i> Reviewer of Journals and Conferences
+          </h3>
+          <ul class="service-list">
+            <li>
+              <strong>ARES</strong>
+              <span>International Conference on Availability, Reliability and Security</span>
+            </li>
+            <li>
+              <strong>IEEE SecDev</strong>
+              <span>IEEE Secure Development Conference</span>
+            </li>
+            <li>
+              <strong>DBSec</strong>
+              <span>IFIP Annual Conference on Data and Applications Security and Privacy</span>
+            </li>
+            <li>
+              <strong>SECRYPT</strong>
+              <span>International Conference on Security and Cryptography</span>
+            </li>
+            <li>
+              <strong>ICISS</strong>
+              <span>International Conference on Information Systems Security</span>
+            </li>
+            <li>
+              <strong>CODASPY</strong>
+              <span>ACM Conference on Data and Application Security and Privacy</span>
+            </li>
+            <li>
+              <strong>FGCS</strong>
+              <span>Future Generation Computer Systems — Elsevier Journal</span>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </section>
 
